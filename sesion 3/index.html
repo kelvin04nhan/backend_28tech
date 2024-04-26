@@ -29,12 +29,58 @@
 
 
  <!-- 7.display -->
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Inline1</span><span>Inline 2</span> sit officiis tempore eos non impedit voluptates libero nemo, laboriosam quia facere tempora eveniet quo, voluptatibus quisquam neque eligendi temporibus optio?</p>
+ <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Inline1</span><span>Inline 2</span> sit officiis tempore eos non impedit voluptates libero nemo, laboriosam quia facere tempora eveniet quo, voluptatibus quisquam neque eligendi temporibus optio?</p>
 
 <p>Lorem <span class="block">block1</span><span class="block">block2</span> dolor sit amet consectetur adipisicing elit. Omnis reiciendis laudantium accusamus atque similique delectus vel. Quisquam vitae, libero dolorum quo repellendus veritatis, voluptates culpa saepe numquam possimus id ea.</p>
 
-<p>Lorem <span class="inline-block">block1</span><span class="inline-block">block2</span> dolor sit amet consectetur adipisicing elit. Omnis reiciendis laudantium accusamus atque similique delectus vel. Quisquam vitae, libero dolorum quo repellendus veritatis, voluptates culpa saepe numquam possimus id ea.</p>
+<p>Lorem <span class="inline-block">block1</span><span class="inline-block">block2</span> dolor sit amet consectetur adipisicing elit. Omnis reiciendis laudantium accusamus atque similique delectus vel. Quisquam vitae, libero dolorum quo repellendus veritatis, voluptates culpa saepe numquam possimus id ea.</p> -->
 
 
+<!-- phần 8 -->
+<!-- phần 9: position -->
+
+<div class="header">Header</div>
+<div class="box box1">Box1</div>
+<div class="box box2">Box2</div>
+<div class="box box3">Box3
+    <div class="box4">box4</div>
+</div>
+<style>
+    .header {
+        position: fixed;
+        width: 100%;
+    }
+    div{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border: 10px solid #000000;
+        /* mặc định là static */
+    }
+    .box1 {
+        background-color: blanchedalmond;
+    }
+    .box2 {
+        background-color: yellow;
+        position: relative;
+        left: 50px;
+        top:100px;
+    }
+    .box3 {
+        background-color: blanchedalmond;
+        position: relative;
+    }
+    .box4 {
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        position: fixed;
+        display:inline-block;
+        bottom: 0;
+        right: 100px;
+    }
+</style>
+<p style="height: 1000px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aspernatur unde nihil dolores corporis placeat ex, porro architecto pariatur veritatis, ducimus accusamus alias repudiandae quasi repellendus inventore. Id, esse ipsa.</p>
 </body>
 </html>
