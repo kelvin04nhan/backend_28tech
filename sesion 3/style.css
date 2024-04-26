@@ -1,4 +1,4 @@
-* {
+/* * {
     background-color: aquamarine;
 }
 h1 {
@@ -7,4 +7,37 @@ h1 {
 }
 .class {
     color:green;
+} */
+
+.box {
+    border: 5px solid #000000;
+    padding: 100px 50px 20px 20px;
+    margin-top: 30px;
+}
+
+.text-1 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text-2 {
+    text-align: right;
+}
+
+.text-3 {
+    text-align: center;
+}
+.text-4 {
+    text-align: justify;
+}
+span {
+    background-color: yellow;
+    border: 5px solid #000000;
+}
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
 }
